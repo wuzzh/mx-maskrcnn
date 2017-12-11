@@ -1,7 +1,7 @@
 # MX Mask R-CNN
 An MXNet implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870).
 
-This repository is a experiment statistics and analyzing on [mx-maskrcnn](https://github.com/precedenceguo/mx-rcnn) repo by [here](https://github.com/TuSimple/mx-maskrcnn).
+This repository is a experiment statistics and analyzing on [mx-maskrcnn](https://github.com/precedenceguo/mx-rcnn) repo by [TuSimple](https://github.com/TuSimple).
 
 
 <div align="center">
