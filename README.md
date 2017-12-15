@@ -38,6 +38,6 @@ For quick experiments, we cut down the training epoch of both rpn and rcnn to a 
 | Training data | Test data | cls network | epoch rpn/rcnn | traing scale | test scale | rcnn batch size | AP | AP50% | test time |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | fine-only | val | resnet50(by tusimple) | 2/6 | 820-1024 | 1024 | 256 | 21.6 | 42.9 | - |
-| fine-only | val | resnet50(by tusimple) | 2/6 | 820-1024 | 1024 | 128 | 17.7 | 37.1 | 1.71 | 
+| fine-only | val | resnet50 | 2/6 | 820-1024 | 1024 | 128 | 17.7 | 37.1 | 1.71 | 
 | fine-only | val | resnet101-v1 | 2/6 | 820-1024 | 1024 | 128 | 24.1 | 47.7 | 1.84 | 
 | fine-only | val | air101 | 2/6 | 410-512 | 512 | 256 | 13.1 | 28.6 | 2.26 |
