@@ -29,7 +29,9 @@ This repository is a experiment statistics and analyzing on [mx-maskrcnn](https:
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | fine-only | test | resnet50(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 26.4 | 49.2 |
 | fine-only | val  | resnet50(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 31.4 | 57.5 |
+| fine-only | test  | resnet50-dcn(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 27.2 | 50.9 |
 | fine-only | val  | resnet50-dcn(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 32.8 | 58.2 |
+
 
 ## Quick Experiments
 To evaluate different classification network on maskrcnn, we experimented resnet101-v1 and air101.
