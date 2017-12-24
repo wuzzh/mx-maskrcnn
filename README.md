@@ -29,7 +29,7 @@ This repository is a experiment statistics and analyzing on [mx-maskrcnn](https:
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | fine-only | test | resnet50(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 26.4 | 49.2 |
 | fine-only | val  | resnet50(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 31.4 | 57.5 |
-
+| fine-only | val  | resnet50-dcn(by tusimple) | 8/24 | 820-1024 | 1024 | 256 | 32.8 | 58.2 |
 
 ## Quick Experiments
 To evaluate different classification network on maskrcnn, we experimented resnet101-v1 and air101.
@@ -39,5 +39,6 @@ For quick experiments, we cut down the training epoch of both rpn and rcnn to a 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | fine-only | val | resnet50(by tusimple) | 2/6 | 820-1024 | 1024 | 256 | 21.6 | 42.9 | - | | 
 | fine-only | val | resnet50 | 2/6 | 820-1024 | 1024 | 128 | 17.7 | 37.1 | 1.71 | |
-| fine-only | val | resnet101-v1 | 2/6 | 820-1024 | 1024 | 128 | 24.1 | 47.7 | 1.84 | | 
-| fine-only | val | air101 | 2/6 | 410-512 | 512 | 256 | 13.1 | 28.6 | 2.26 | 0.18 |
+| fine-only | val | resnet50-dcn | 2/6 | 820-1024 | 1024 | 256 | 21.7 | - | 1.83 | |
+| fine-only | val | resnet101-v1 | 2/6 | 820-1024 | 1024 | 128 | 24.1 | 47.7 | 1.84 | |
+| fine-only | val | air101 | 2/6 | 410-512 | 512 | 256 | 13.1 | 28.6 | 2.26 | |
